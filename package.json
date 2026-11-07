@@ -1,0 +1,20 @@
+{
+  "name": "ts-wal-logger",
+  "version": "1.0.0",
+  "description": "Write-Ahead Log (WAL) for crash recovery with checkpointing",
+  "main": "main.ts",
+  "scripts": {
+    "start": "npx tsx main.ts"
+  },
+  "keywords": ["typescript", "wal", "write-ahead-log", "database", "crash-recovery"],
+  "author": "Mahmoud ElNemer <sultanelnemer@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElNeMeR70/ts-wal-logger.git"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
